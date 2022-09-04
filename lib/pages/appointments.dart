@@ -61,7 +61,6 @@ class _AppointmentsState extends State<Appointments> {
 
   @override
   void initState() {
-    fetchAppointments();
     getToken();
     _future = fetchAppointments();
     super.initState();
